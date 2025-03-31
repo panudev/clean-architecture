@@ -1,0 +1,62 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+**/bin/
+**/obj/
+
+## Rider
+.idea/
+
+## Visual Studio Code
+.vscode/
+
+## Logs
+*.log
+
+## User-specific files
+*.rsuser
+*.user
+*.suo
+
+## ASP.NET Core environment-specific
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## NuGet
+*.nupkg
+.nuget/
+packages/
+*.snupkg
+
+## Others
+*.DS_Store
+*.env
+.env.*
+*.swp
+
+# Docker
+**/Dockerfile
+**/docker-compose.*
+**/*.pid
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Local tooling
+tools/
+
+# JetBrains Rider
+.idea/
+
+# Resharper
+.ReSharper*/
+*_ReSharper*/
